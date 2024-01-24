@@ -6,7 +6,7 @@
 *XiangRu Huang,*
 
 **Contents**
-1. Installation of PostgresSQL
+1. Installation of PostgresSQL & pgAdmin
 2. Database Creation
 3. Connection via R
 4. Querying Examples
@@ -42,7 +42,7 @@ https://www.postgresql.org/download/
 
 <br> 
 
-
+https://www.pgadmin.org/download/
 
 
 
