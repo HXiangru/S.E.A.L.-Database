@@ -6,7 +6,7 @@
 *XiangRu Huang,*
 
 **Contents**
-1. Installation of PostgresSQL
+1. Installation of PostgresSQL & pgAdmin
 2. Database Creation
 3. Connection via R
 4. Querying Examples
@@ -357,7 +357,7 @@ table <- dbGetQuery(con, query)
 
 <br>
 
-## 5. Editing
+## 5. Editing Examples
 
 <br>
 
