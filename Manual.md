@@ -29,7 +29,7 @@
 
 https://www.postgresql.org/download/
 
-1. Set port
+1. Set default port (5432)
 2. Set password for default user *postgre*
 
 
