@@ -29,8 +29,8 @@
 
 https://www.postgresql.org/download/
 
-1. Set default port (5432)
-2. Set password for default user *postgre*
+* Set default port *5432*
+* Set password for default user *postgre*
 
 
 
@@ -44,7 +44,11 @@ https://www.postgresql.org/download/
 
 https://www.pgadmin.org/download/
 
-
+Login the default server with default port, default user with the password you have set. The default server information:  
+* Hostname: localhost
+* Port: 5432
+* Password: ‘password’
+* User: postgres
 
 
 
@@ -58,6 +62,267 @@ https://www.pgadmin.org/download/
 
 <br> 
 
+The folder that is available in Github should include this file as well as a folder called *Project_DB2* (https://github.com/hxr303/S.E.A.L.-Database/tree/main/Project_DB_2). Download this folder, as it contains all the queries, functions, and files required to build this database with some contained data. 
+
+<br> 
+
+**1. Open pgAdmin, log in to your server.**
+  
+<br> 
+
+**2. Open *Query Tool*, run the following ode**.  
+
+   ```sql
+   CREATE TABLE IF NOT EXISTS public.data_tags
+   (
+     specimen text COLLATE pg_catalog."default",
+     bone text COLLATE pg_catalog."default",
+     sex text COLLATE pg_catalog."default",
+     age text COLLATE pg_catalog."default",
+     side_of_body text COLLATE pg_catalog."default",
+     plane_of_picture text COLLATE pg_catalog."default",
+     orientation text COLLATE pg_catalog."default"
+   )
+   ```
+
+   * Importing *data_tags.csv* which should be located in *files*, will be imported into PostgreSQL, it is important that *header* is enabled in *options*.
+   
+   * After the CSV file has been imported, add two columns by running the following code in *Query Tool*.  
+   
+   ```sql
+   ALTER TABLE data_tags
+   ADD COLUMN picture_number INTEGER,
+   ADD CONSTRAINT unique_picture_number UNIQUE (picture_number);
+
+   ALTER TABLE data_tags
+   ADD COLUMN logic_tag SERIAL NOT NULL DEFAULT nextval('data_tags_logic_tag_seq'::regclass),
+   ADD CONSTRAINT data_tags_pkey PRIMARY KEY (logic_tag);
+   ```
+
+<br> 
+<br> 
+
+**3. Add the randomly generated numbers to the *picture_number* column by running the following code in *Query Tool*.**  
+   
+   * Add the function *generate_unique_random_number* first
+   
+   ```sql
+   CREATE OR REPLACE FUNCTION public.generate_unique_random_number(
+    )
+     RETURNS integer
+     LANGUAGE 'plpgsql'
+     COST 100
+     VOLATILE PARALLEL UNSAFE
+   AS $BODY$
+   DECLARE
+       random_number INTEGER;
+   BEGIN
+       LOOP
+           random_number := floor(random() * 900000 + 100000)::INTEGER;
+           EXIT WHEN NOT EXISTS (SELECT 1 FROM data_tags WHERE picture_number = random_number);
+       END LOOP;
+       RETURN random_number;
+   END;
+   $BODY$;
+
+   ALTER FUNCTION public.generate_unique_random_number()
+       OWNER TO postgres;
+   ```
+
+   * Generate picture number
+   
+   ```sql
+   DO $$ 
+   DECLARE
+       row_data RECORD;
+       new_picture_number INTEGER;
+   BEGIN
+       -- Loop through rows where specimen is not NULL
+       FOR row_data IN SELECT * FROM public.data_tags WHERE specimen IS NOT NULL
+       LOOP
+           -- Generate a new unique random number
+           new_picture_number := generate_unique_random_number();
+
+           -- Update each row with the generated random number
+           UPDATE public.data_tags
+           SET picture_number = new_picture_number
+           WHERE logic_tag = row_data.logic_tag;
+
+           -- You can add additional logic or print statements if needed
+           -- RAISE NOTICE 'Updated picture_number for logic_tag %', row_data.logic_tag;
+       END LOOP;
+   END $$;
+   ```
+
+<br> 
+<br> 
+
+**4. Create *user_data* table in which user data is stored (UUID, usernames, password)**
+   
+   * First add the extension by running the following code in *Query Tool*. b.	After you run this code you might see in your function dropdown that a lot of UUID functions got added, they are extensions from the UUID-ossa package which allows them to become a global entity.
+   
+   ```sql
+   CREATE OR REPLACE FUNCTION public.create_standard_user(
+    p_username VARCHAR,
+     p_password VARCHAR)
+   RETURNS void
+   LANGUAGE 'plpgsql'
+   COST 100
+   VOLATILE PARALLEL UNSAFE
+   AS $BODY$
+   BEGIN
+       -- Create the user
+       EXECUTE 'CREATE USER ' || quote_ident(p_username) || ' WITH PASSWORD' ||  quote_literal(p_password);
+
+       -- Grant privileges to add, change, and delete rows
+       EXECUTE 'GRANT INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO ' || quote_ident(p_username);
+
+       -- Grant privileges to import/export OID files
+       EXECUTE 'GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO ' || quote_ident(p_username);
+
+       -- Grant privileges to import/export text arrays
+       EXECUTE 'GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA public TO ' || quote_ident(p_username);
+   END;
+   $BODY$;
+   ```
+
+   * Add *user_data* table by running the following code in *Query Tool*.
+   ```sql
+   -- Enable the uuid-ossp extension
+   CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+   CREATE TABLE IF NOT EXISTS public.user_data (
+       user_id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+       username1 VARCHAR(255),
+       password1 VARCHAR(255)
+   );
+   ```
+
+<br> 
+<br> 
+
+**5. Creating the user functions that will be used for creating a user in the database**
+
+   * Admin is a SUPERUSER by running the following code in *Query Tool*. It can change any feature within the database, and later in the UI there might be an option to create additional admins if the database becomes scalable.
+  
+   ```sql
+   CREATE OR REPLACE FUNCTION public.admin_create(
+     user_name character varying,
+     user_password character varying)
+       RETURNS void
+       LANGUAGE 'plpgsql'
+       COST 100
+       VOLATILE PARALLEL UNSAFE
+   AS $BODY$
+     BEGIN
+       EXECUTE 'CREATE ROLE ' || quote_ident(user_name) || ' PASSWORD ' || quote_literal(user_password) || ' SUPERUSER';
+        EXECUTE 'ALTER ROLE ' || quote_ident(user_name) || ' CREATEROLE';
+     END;
+   $BODY$;
+   ```
+
+   * Create a standard user by running the following code in *Query Tool*. This function is not a superuser so the user needs to be granted permission to execute certain queries, and only has access to the table *data_tags*.
+     * Insert, update, and delete rows
+     * Usage of all sequences in the schema
+     * Grant executes all functions in the public schema
+
+  ```sql
+  CREATE OR REPLACE FUNCTION public.create_standard_user(
+      p_username VARCHAR,
+      p_password VARCHAR)
+  RETURNS void
+  LANGUAGE 'plpgsql'
+  COST 100
+  VOLATILE PARALLEL UNSAFE
+  AS $BODY$
+  BEGIN
+      -- Create the user
+      EXECUTE 'CREATE USER ' || quote_ident(p_username) || ' WITH PASSWORD ' || quote_literal(p_password);
+
+      -- Grant privileges to add, change, and delete rows
+      EXECUTE 'GRANT INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO ' || quote_ident(p_username);
+
+      -- Grant privileges to import/export OID files
+      EXECUTE 'GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO ' || quote_ident(p_username);
+
+      -- Grant privileges to import/export text arrays
+      EXECUTE 'GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA public TO ' || quote_ident(p_username);
+  END;
+  $BODY$;
+  ```
+
+   * Gnenerate the random correspondant UUID to take input of a user that has just created a username and 'password', by running the following code in *Query Tool*.
+  
+```sql
+CREATE OR REPLACE FUNCTION public.insert_user_data(
+    p_username1 VARCHAR,
+    p_password1 VARCHAR)
+RETURNS void
+LANGUAGE 'plpgsql'
+COST 100
+VOLATILE PARALLEL UNSAFE
+AS $BODY$
+BEGIN
+    INSERT INTO user_data (user_id, username1, password1)
+    VALUES (uuid_generate_v4(), p_username1, p_password1);
+END;
+$BODY$;
+```
+
+<br> 
+<br> 
+
+**6. Create *user_documentation* table. This will record the changes being made to the table *data_tags*. It allows to take the user that is editing it and the details also the *picture_number* specifying the row that was edited.**
+
+* Run the following code to create the function first.
+
+```sql
+CREATE OR REPLACE FUNCTION public.perform_user_action_with_documentation(
+	p_username character varying,
+	p_action_type character varying,
+	p_password character varying,
+	p_affected_picture_number integer)
+    RETURNS void
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE PARALLEL UNSAFE
+AS $BODY$
+DECLARE
+    v_user_id UUID;
+BEGIN
+    -- Retrieve the user_id based on the provided username
+    SELECT user_id INTO v_user_id
+    FROM user_data
+    WHERE username1 = p_username;
+
+    IF NOT FOUND THEN
+        -- Username does not exist, handle accordingly
+        RAISE EXCEPTION 'Username % does not exist in user_data', p_username;
+    END IF;
+
+    -- Record the action in user_documentation using the retrieved user_id and affected_picture_number
+    INSERT INTO user_documentation (user_id, action_type, affected_row_id, timestamp)
+    VALUES (v_user_id, p_action_type, p_affected_picture_number, CURRENT_TIMESTAMP);
+END;
+$BODY$;
+```
+
+* Build the *user_documentation.sql* table by running the following code in *Query Tool*.
+  *  Documentation_id which is the serial primary key
+  *  User_id is UUID from the user_data table
+  *  Action_type is a VARCHAR
+  *  Affected_row_id is INTEGER
+  *  Timestamp gives data and time
+
+```sql
+CREATE TABLE user_documentation (
+    documentation_id SERIAL PRIMARY KEY,
+    user_id UUID REFERENCES user_data(user_id),
+    action_type VARCHAR(255),
+    affected_row_id INTEGER,  -- Reference to the row in data_tags
+    timestamp TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+);
+```
 
 
 
@@ -116,7 +381,10 @@ could not connect postgres@localhost:5432 on dbname "pro306": SCRAM authenticati
 3. Set *password_encryption = md5* in postgresql.conf
 4. Set *METHODS* be *md5* in pg_hba.conf
 5. Reload PostgreSQL
-6.  Open the prompt (SQL shell, or called psql), change the password using the coommand *ALTER USER here-is-your-username WITH PASSWORD 'here-is-your-new-password';*
+6.  Open the prompt (SQL shell, or called psql), log in, change the password using the following coommand 
+   ```psql
+   ALTER USER here-is-your-username WITH PASSWORD 'here-is-your-new-password';
+   ```
 7.  Go to Rstudio, reconnect the server and it should work now 
 
 <br> 
@@ -354,13 +622,27 @@ query <- "SELECT *
 table <- dbGetQuery(con, query)
 ```
 
+Query the user documentation
+```r
+???
+```
+
+<br>
+<br>
+
+**6. Create a user**
+
+```r
+???
+```
+
 <br>
 
 ---
 
 <br>
 
-## 5. Editing Examples
+## 5. Editing
 
 <br>
 
@@ -476,6 +758,15 @@ Get ordered table "msp" based on "specimen" first, then picture number"
 ```r
 query <- "SELECT * FROM msp ORDER BY specimen,\"picture number\";"
 dbExecute(con, query)
+```
+
+<br>
+<br>
+
+**5. Query the editing history**
+
+```r
+???
 ```
 
 <br>
