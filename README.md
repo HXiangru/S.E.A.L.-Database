@@ -6,6 +6,8 @@ FULLNAME (S.E.A.L.) Database is a student-created database, used for storing, up
 
 It aims to provide a scalable, searchable, and general database scienfic specimens across MSP, ranging broadly, from botany to palaeontology.
 
+The creators of this database are: *Clara Baumans (i6287661), Emeric Mellet(i), Lael Licht(i), Noah Labuschagne(i), Xavier Miserez(i), XiangRu Huang (i6253173).*
+
 <br> 
 
 ---
