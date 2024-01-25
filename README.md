@@ -12,4 +12,16 @@ The creators of this database are: *Clara Baumans (i6287661), Emeric Mellet(i), 
 
 ---
 
+<br> 
+
+## Manual
+
+<br> 
+
+Please check the manual to get more information of S.E.A.L. Database.
+
+<br> 
+
+---
+
 
