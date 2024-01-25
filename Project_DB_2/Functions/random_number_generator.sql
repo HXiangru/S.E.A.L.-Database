@@ -10,11 +10,12 @@ DECLARE
 BEGIN
     LOOP
         random_number := floor(random() * 900000 + 100000)::INTEGER;
-
-        -- Exit the loop if the random number is not found in your_table
-        EXIT WHEN NOT EXISTS (SELECT 1 FROM your_table WHERE your_column = random_number);
+        EXIT WHEN NOT EXISTS (SELECT 1 FROM data_tags WHERE picture_number = random_number);
     END LOOP;
 
     RETURN random_number;
 END;
 $BODY$;
+
+ALTER FUNCTION public.generate_unique_random_number()
+    OWNER TO postgres;
