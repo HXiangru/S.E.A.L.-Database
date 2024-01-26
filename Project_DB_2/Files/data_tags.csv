@@ -1,709 +1,709 @@
-specimen,bone,sex,age,side_of_body,plane_of_picture,orientation,picture_number
-Arctocephalus pusillus_1,rib,-,-,-,coronal,-,500130
-Arctocephalus pusillus_1,rib,-,-,-,coronal,-,634983
-Arctocephalus pusillus_1,mandible,-,-,left,midsagittal,interior,245385
-Arctocephalus pusillus_1,mandible,-,-,left,midsagittal,exterior,929642
-Arctocephalus pusillus_1,vertebrae,-,-,-,coronal,anterior,956598
-Arctocephalus pusillus_1,vertebrae,-,-,-,coronal,posterior,770727
-Arctocephalus pusillus_2,phalange (2),-,-,-,transverse,dorsal & ventral,855953
-Arctocephalus pusillus_2,phalange (2),-,-,-,midsagittal,sides,263833
-Arctocephalus pusillus_3_box,skull,female,adult,-,transverse,dorsal,370173
-Arctocephalus pusillus_3_box,skull,female,adult,-,transverse,ventral,673815
-Arctocephalus pusillus_3_box,lower jaw,female,adult,-,transverse,dorsal,626101
-Arctocephalus pusillus_3_box,mandible,female,adult,right,midsagittal,interior,534070
-Arctocephalus pusillus_3_box,mandible,female,adult,right,midsagittal,exterior,605601
-Arctocephalus pusillus_3_box,pelvis,female,-,right,midsagittal,exterior,921555
-Arctocephalus pusillus_3_box,pelvis,female,-,right,midsagittal,interior,409438
-Arctocephalus pusillus_3_box,vertebrae (3),female,-,-,midsagittal,-,618010
-Arctocephalus pusillus_3_box,vertebrae (3),female,-,-,midsagittal,-,424688
-Arctocephalus pusillus_3_box,femur,female,-,left,transverse,ventral,583030
-Arctocephalus pusillus_3_box,femur,female,-,left,transverse,dorsal,142949
-Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,coronal,anterior,301247
-Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,coronal,posterior,824756
-Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,midsagittal,left,408731
-Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,midsagittal,right,503832
-Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,transverse,ventral,234945
-Arctocephalus pusillus_3_box,"vertebrae (thoracical, 2)",female,adult,-,sagittal,right,546769
-Arctocephalus pusillus_3_box,"vertebrae (thoracical, 2)",female,adult,-,sagittal,left,882454
-Arctocephalus pusillus_3_box,atlas,female,adult,-,transverse,dorsal,725040
-Arctocephalus pusillus_3_box,atlas,female,adult,-,transverse,ventral,631696
-Arctocephalus pusillus_3_box,skull,male,-,-,transverse,dorsal,369240
-Arctocephalus pusillus_3_box,skull,male,-,-,transverse,ventral,771188
-Arctocephalus pusillus_3_box,humerus,male,adult,right,transverse,dorsal,443596
-Arctocephalus pusillus_3_box,humerus,male,adult,right,transverse,ventral,320793
-Arctocephalus pusillus_3_box,humerus,male,adult,right,coronal,anterior,539670
-Arctocephalus pusillus_3_box,rib,-,-,-,coronal,-,248879
-Arctocephalus pusillus_3_box,tibia fibula,-,-,right,midsagittal,exterior,953109
-Arctocephalus pusillus_3_box,tibia fibula,-,-,right,midsagittal,interior,857426
-Arctocephalus pusillus_3_box,humerus,male,-,right,transverse,dorsal,395808
-Arctocephalus pusillus_3_box,humerus,male,-,right,transverse,ventral,789527
-Arctocephalus pusillus_3_box,humerus,male,-,right,coronal,anterior,843797
-Arctocephalus pusillus_3_box,humerus,male,-,right,coronal,anterior,472356
-Arctocephalus pusillus_3_box,ulna,male,adult,right,transverse,dorsal,141163
-Arctocephalus pusillus_3_box,ulna,male,adult,right,transverse,ventral,737279
-Arctocephalus pusillus_3_box,femur,female,adult,left,transverse,ventral,702086
-Arctocephalus pusillus_3_box,femur,female,adult,left,transverse,dorsal,890648
-Arctocephalus pusillus_3_box,scapula,male,adult,left,transverse,dorsal,899587
-Arctocephalus pusillus_3_box,scapula,male,adult,left,transverse,ventral,367870
-Arctocephalus pusillus_3_box,femur,male,-,left,transverse,dorsal,793083
-Arctocephalus pusillus_3_box,femur,male,-,left,transverse,ventral,425562
-Arctocephalus pusillus_3_box,mandible,male,adult,right,midsagittal,exterior,557451
-Arctocephalus pusillus_3_box,mandible,male,adult,right,midsagittal,interior,339502
-Arctocephalus pusillus_3_box,baculum (2),male,-,-,-,-,213199
-Arctocephalus pusillus_3_box,baculum (2),male,-,-,-,-,385826
-Arctocephalus pusillus_3_box,vertebrae (cervical),male,-,-,coronal,anterior,861822
-Arctocephalus pusillus_3_box,vertebrae (cervical),male,-,-,coronal,posterior,218214
-Arctocephalus pusillus_3_box,vertebrae (cervical),male,-,-,midsagittal,left,203124
-Arctocephalus pusillus_3_box,vertebrae (cervical),male,-,-,midsagittal,right,855669
-Cystophora cristata,forelimb (complete),-,-,left,transverse,dorsal,122111
-Cystophora cristata,radius,-,-,left,transverse,dorsal,785057
-Cystophora cristata,radius,-,-,left,transverse,ventral,826337
-Cystophora cristata,ulna,-,-,left,transverse,dorsal,473827
-Cystophora cristata,ulna,-,-,left,transverse,ventral,816336
-Cystophora cristata,humerus,-,-,left,transverse,dorsal,577254
-Cystophora cristata,humerus,-,-,left,transverse,ventral,202531
-Cystophora cristata,humerus,-,-,left,coronal,anterior,384622
-Cystophora cristata,forelimb (complete),-,-,right,transverse,dorsal,590210
-Cystophora cristata,radius,-,-,right,transverse,dorsal,959465
-Cystophora cristata,radius,-,-,right,transverse,ventral,572953
-Cystophora cristata,ulna,-,-,right,transverse,dorsal,923156
-Cystophora cristata,ulna,-,-,right,transverse,ventral,247336
-Cystophora cristata,scapula,-,-,right,transverse,dorsal,332223
-Cystophora cristata,scapula,-,-,right,transverse,ventral,976552
-Cystophora cristata,humerus,-,-,right,transverse,dorsal,346942
-Cystophora cristata,humerus,-,-,right,transverse,ventral,991660
-Cystophora cristata,humerus,-,-,right,coronal,anterior,974436
-Halichoerus grypus_1,scapula,-,-,right,transverse,dorsal,518317
-Halichoerus grypus_1,scapula,-,-,right,transverse,ventral,460219
-Halichoerus grypus_1,scapula,-,-,left,transverse,dorsal,752411
-Halichoerus grypus_1,scapula,-,-,left,transverse,ventral,344432
-Halichoerus grypus_1,humerus,-,-,left,transverse,ventral,191371
-Halichoerus grypus_1,humerus,-,-,left,transverse,dorsal,289108
-Halichoerus grypus_1,humerus,-,-,left,coronal,anterior,898495
-Halichoerus grypus_1,humerus,-,-,right,transverse,dorsal,957070
-Halichoerus grypus_1,humerus,-,-,right,transverse,ventral,976773
-Halichoerus grypus_1,humerus,-,-,right,coronal,anterior,601661
-Halichoerus grypus_1,ulna (incomplete),-,-,right,transverse,dorsal,279638
-Halichoerus grypus_1,ulna (incomplete),-,-,right,transverse,ventral,322571
-Halichoerus grypus_2,ulna,-,-,left,transverse,dorsal,142583
-Halichoerus grypus_2,ulna,-,-,left,transverse,ventral,340720
-Halichoerus grypus_2,radius,-,-,right,transverse,dorsal,300807
-Halichoerus grypus_2,radius,-,-,right,transverse,ventral,370196
-Halichoerus grypus_2,humerus,-,-,-,transverse,ventral,266208
-Halichoerus grypus_2,humerus,-,-,-,transverse,dorsal,251830
-Halichoerus grypus_2,humerus,-,-,-,coronal,anterior,902845
-Halichoerus grypus_3,scapula,-,subadult,right,transverse,dorsal,183627
-Halichoerus grypus_3,scapula,-,subadult,right,transverse,ventral,260242
-Halichoerus grypus_3,scapula,male,adult,right,transverse,dorsal,877981
-Halichoerus grypus_3,scapula,male,adult,right,transverse,ventral,851712
-Halichoerus grypus_3,scapula,-,-,right,transverse,dorsal,428970
-Halichoerus grypus_3,scapula,-,-,right,transverse,ventral,801093
-Halichoerus grypus_3,scapula,-,adult,left,transverse,dorsal,147852
-Halichoerus grypus_3,scapula,-,adult,left,transverse,ventral,818385
-Halichoerus grypus_3,humerus,female,adult,left,transverse,ventral,362555
-Halichoerus grypus_3,humerus,female,adult,left,transverse,dorsal,736154
-Halichoerus grypus_3,humerus,female,adult,left,coronal,anterior,357849
-Halichoerus grypus_3,humerus,female,-,right,transverse,ventral,336685
-Halichoerus grypus_3,humerus,female,-,right,transverse,dorsal,314884
-Halichoerus grypus_3,humerus,female,-,right,coronal,anterior,859301
-Halichoerus grypus_4-1,scapula,male,-,right,transverse,dorsal,692352
-Halichoerus grypus_4-1,scapula,male,-,right,transverse,ventral,159778
-Halichoerus grypus_4-2,scapula,-,-,right,transverse,dorsal,702152
-Halichoerus grypus_4-2,scapula,-,-,right,transverse,ventral,980369
-Halichoerus grypus_4-3,humerus,-,-,right,transverse,ventral,581504
-Halichoerus grypus_4-3,humerus,-,-,right,transverse,dorsal,175267
-Halichoerus grypus_4-3,humerus,-,-,right,coronal,anterior,106717
-Halichoerus grypus_4-4,ulna (incomplete),male,immature,left,transverse,dorsal,221587
-Halichoerus grypus_4-4,ulna (incomplete),male,immature,left,transverse,ventral,808863
-Halichoerus grypus_4-4,ulna (incomplete),male,immature,right,transverse,dorsal,295208
-Halichoerus grypus_4-4,ulna (incomplete),male,immature,right,transverse,ventral,885372
-Halichoerus grypus_4-4,humerus,male,immature,right,transverse,ventral,610780
-Halichoerus grypus_4-4,humerus,male,immature,right,transverse,dorsal,298149
-Halichoerus grypus_4-4,humerus,male,immature,right,coronal,anterior,638334
-Halichoerus grypus_4-4,humerus,male,immature,left,transverse,ventral,912448
-Halichoerus grypus_4-4,humerus,male,immature,left,transverse,dorsal,321725
-Halichoerus grypus_4-4,humerus,male,immature,left,coronal,anterior,425249
-Halichoerus grypus_5,scapula,female,-,left,transverse,dorsal,253450
-Halichoerus grypus_5,scapula,female,-,left,transverse,ventral,882197
-Halichoerus grypus_5,scapula,female,-,right,transverse,dorsal,178532
-Halichoerus grypus_5,scapula,female,-,right,transverse,ventral,811748
-Halichoerus grypus_5,ulna,female,-,right,transverse,dorsal,350457
-Halichoerus grypus_5,ulna,female,-,right,transverse,ventral,819671
-Halichoerus grypus_5,ulna,female,-,left,transverse,dorsal,673660
-Halichoerus grypus_5,ulna,female,-,left,transverse,ventral,626907
-Halichoerus grypus_5,humerus,female,-,right,transverse,ventral,186673
-Halichoerus grypus_5,humerus,female,-,right,transverse,dorsal,446865
-Halichoerus grypus_5,humerus,female,-,right,coronal,anterior,218798
-Odobenus sp.,ulna,-,-,right,transverse,dorsal,534281
-Odobenus sp.,ulna,-,-,right,transverse,ventral,703698
-Odobenus sp.,radius,-,-,right,transverse,ventral,277467
-Odobenus sp.,radius,-,-,right,transverse,dorsal,456322
-Odobenus sp.,radius,-,-,right,transverse,dorsal,720105
-Odobenus sp.,radius,-,-,right,coronal,posterior,383529
-Phoca vitulina_1,forelimb (complete),male,-,left,transverse,dorsal,333388
-Phoca vitulina_1,ulna,male,-,left,transverse,dorsal,554756
-Phoca vitulina_1,ulna,male,-,left,transverse,ventral,696142
-Phoca vitulina_1,radius,male,-,left,transverse,dorsal,586765
-Phoca vitulina_1,radius,male,-,left,transverse,ventral,515509
-Phoca vitulina_1,humerus,male,-,left,transverse,-,366425
-Phoca vitulina_1,humerus,male,-,left,transverse,ventral,558569
-Phoca vitulina_1,humerus,male,-,left,coronal,anterior,210207
-Phoca vitulina_1,humerus,male,-,left,coronal,posterior,751391
-Phoca vitulina_1,scapula,male,-,left,transverse,dorsal,823856
-Phoca vitulina_1,scapula,male,-,left,transverse,ventral,368653
-Phoca vitulina_1,forelimb (incomplete),male,-,right,transverse,dorsal,456465
-Phoca vitulina_1,scapula,male,-,right,transverse,dorsal,949487
-Phoca vitulina_1,scapula,male,-,right,transverse,ventral,364557
-Phoca vitulina_1,ulna,male,-,right,transverse,dorsal,803259
-Phoca vitulina_1,ulna,male,-,right,transverse,ventral,969292
-Phoca vitulina_1,humerus,male,-,right,transverse,dorsal,475045
-Phoca vitulina_1,humerus,male,-,right,transverse,ventral,856642
-Phoca vitulina_1,humerus,male,-,right,coronal,anterior,757047
-Phoca vitulina_2,radius,-,juvenile,right,transverse,dorsal,349204
-Phoca vitulina_2,radius,-,juvenile,right,transverse,ventral,923867
-Phoca vitulina_3-1,scapula,-,-,right,transverse,dorsal,136418
-Phoca vitulina_3-1,scapula,-,-,right,transverse,ventral,194716
-Phoca vitulina_3-2,radius,-,-,left,transverse,dorsal,954061
-Phoca vitulina_3-2,radius,-,-,left,transverse,ventral,164255
-Phoca vitulina_3-3,ulna,-,-,right,transverse,dorsal,743190
-Phoca vitulina_3-3,ulna,-,-,right,transverse,ventral,521804
-Zalophus californianus,brain endocast,-,-,-,transverse,dorsal,452399
-Zalophus californianus,brain endocast,-,-,-,transverse,ventral,421815
-Zalophus californianus,skull,-,-,-,transverse,dorsal,200415
-Zalophus californianus,skull,-,-,-,transverse,ventral,273600
-Zalophus californianus,mandible (2),-,-,left & right,midsagittal,exterior,564804
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
-NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+specimen,bone,sex,age,side_of_body,plane_of_picture,orientation
+Arctocephalus pusillus_1,rib,-,-,-,coronal,-
+Arctocephalus pusillus_1,rib,-,-,-,coronal,-
+Arctocephalus pusillus_1,mandible,-,-,left,midsagittal,interior
+Arctocephalus pusillus_1,mandible,-,-,left,midsagittal,exterior
+Arctocephalus pusillus_1,vertebrae,-,-,-,coronal,anterior
+Arctocephalus pusillus_1,vertebrae,-,-,-,coronal,posterior
+Arctocephalus pusillus_2,phalange (2),-,-,-,transverse,dorsal & ventral
+Arctocephalus pusillus_2,phalange (2),-,-,-,midsagittal,sides
+Arctocephalus pusillus_3_box,skull,female,adult,-,transverse,dorsal
+Arctocephalus pusillus_3_box,skull,female,adult,-,transverse,ventral
+Arctocephalus pusillus_3_box,lower jaw,female,adult,-,transverse,dorsal
+Arctocephalus pusillus_3_box,mandible,female,adult,right,midsagittal,interior
+Arctocephalus pusillus_3_box,mandible,female,adult,right,midsagittal,exterior
+Arctocephalus pusillus_3_box,pelvis,female,-,right,midsagittal,exterior
+Arctocephalus pusillus_3_box,pelvis,female,-,right,midsagittal,interior
+Arctocephalus pusillus_3_box,vertebrae (3),female,-,-,midsagittal,-
+Arctocephalus pusillus_3_box,vertebrae (3),female,-,-,midsagittal,-
+Arctocephalus pusillus_3_box,femur,female,-,left,transverse,ventral
+Arctocephalus pusillus_3_box,femur,female,-,left,transverse,dorsal
+Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,coronal,anterior
+Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,coronal,posterior
+Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,midsagittal,left
+Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,midsagittal,right
+Arctocephalus pusillus_3_box,"vertebrae (lumbar,caudal)",female,-,-,transverse,ventral
+Arctocephalus pusillus_3_box,"vertebrae (thoracical, 2)",female,adult,-,sagittal,right
+Arctocephalus pusillus_3_box,"vertebrae (thoracical, 2)",female,adult,-,sagittal,left
+Arctocephalus pusillus_3_box,atlas,female,adult,-,transverse,dorsal
+Arctocephalus pusillus_3_box,atlas,female,adult,-,transverse,ventral
+Arctocephalus pusillus_3_box,skull,male,-,-,transverse,dorsal
+Arctocephalus pusillus_3_box,skull,male,-,-,transverse,ventral
+Arctocephalus pusillus_3_box,humerus,male,adult,right,transverse,dorsal
+Arctocephalus pusillus_3_box,humerus,male,adult,right,transverse,ventral
+Arctocephalus pusillus_3_box,humerus,male,adult,right,coronal,anterior
+Arctocephalus pusillus_3_box,rib,-,-,-,coronal,-
+Arctocephalus pusillus_3_box,tibia fibula,-,-,right,midsagittal,exterior
+Arctocephalus pusillus_3_box,tibia fibula,-,-,right,midsagittal,interior
+Arctocephalus pusillus_3_box,humerus,male,-,right,transverse,dorsal
+Arctocephalus pusillus_3_box,humerus,male,-,right,transverse,ventral
+Arctocephalus pusillus_3_box,humerus,male,-,right,coronal,anterior
+Arctocephalus pusillus_3_box,humerus,male,-,right,coronal,anterior
+Arctocephalus pusillus_3_box,ulna,male,adult,right,transverse,dorsal
+Arctocephalus pusillus_3_box,ulna,male,adult,right,transverse,ventral
+Arctocephalus pusillus_3_box,femur,female,adult,left,transverse,ventral
+Arctocephalus pusillus_3_box,femur,female,adult,left,transverse,dorsal
+Arctocephalus pusillus_3_box,scapula,male,adult,left,transverse,dorsal
+Arctocephalus pusillus_3_box,scapula,male,adult,left,transverse,ventral
+Arctocephalus pusillus_3_box,femur,male,-,left,transverse,dorsal
+Arctocephalus pusillus_3_box,femur,male,-,left,transverse,ventral
+Arctocephalus pusillus_3_box,mandible,male,adult,right,midsagittal,exterior
+Arctocephalus pusillus_3_box,mandible,male,adult,right,midsagittal,interior
+Arctocephalus pusillus_3_box,baculum (2),male,-,-,-,-
+Arctocephalus pusillus_3_box,baculum (2),male,-,-,-,-
+Arctocephalus pusillus_3_box,vertebrae (cervical),male,-,-,coronal,anterior
+Arctocephalus pusillus_3_box,vertebrae (cervical),male,-,-,coronal,posterior
+Arctocephalus pusillus_3_box,vertebrae (cervical),male,-,-,midsagittal,left
+Arctocephalus pusillus_3_box,vertebrae (cervical),male,-,-,midsagittal,right
+Cystophora cristata,forelimb (complete),-,-,left,transverse,dorsal
+Cystophora cristata,radius,-,-,left,transverse,dorsal
+Cystophora cristata,radius,-,-,left,transverse,ventral
+Cystophora cristata,ulna,-,-,left,transverse,dorsal
+Cystophora cristata,ulna,-,-,left,transverse,ventral
+Cystophora cristata,humerus,-,-,left,transverse,dorsal
+Cystophora cristata,humerus,-,-,left,transverse,ventral
+Cystophora cristata,humerus,-,-,left,coronal,anterior
+Cystophora cristata,forelimb (complete),-,-,right,transverse,dorsal
+Cystophora cristata,radius,-,-,right,transverse,dorsal
+Cystophora cristata,radius,-,-,right,transverse,ventral
+Cystophora cristata,ulna,-,-,right,transverse,dorsal
+Cystophora cristata,ulna,-,-,right,transverse,ventral
+Cystophora cristata,scapula,-,-,right,transverse,dorsal
+Cystophora cristata,scapula,-,-,right,transverse,ventral
+Cystophora cristata,humerus,-,-,right,transverse,dorsal
+Cystophora cristata,humerus,-,-,right,transverse,ventral
+Cystophora cristata,humerus,-,-,right,coronal,anterior
+Halichoerus grypus_1,scapula,-,-,right,transverse,dorsal
+Halichoerus grypus_1,scapula,-,-,right,transverse,ventral
+Halichoerus grypus_1,scapula,-,-,left,transverse,dorsal
+Halichoerus grypus_1,scapula,-,-,left,transverse,ventral
+Halichoerus grypus_1,humerus,-,-,left,transverse,ventral
+Halichoerus grypus_1,humerus,-,-,left,transverse,dorsal
+Halichoerus grypus_1,humerus,-,-,left,coronal,anterior
+Halichoerus grypus_1,humerus,-,-,right,transverse,dorsal
+Halichoerus grypus_1,humerus,-,-,right,transverse,ventral
+Halichoerus grypus_1,humerus,-,-,right,coronal,anterior
+Halichoerus grypus_1,ulna (incomplete),-,-,right,transverse,dorsal
+Halichoerus grypus_1,ulna (incomplete),-,-,right,transverse,ventral
+Halichoerus grypus_2,ulna,-,-,left,transverse,dorsal
+Halichoerus grypus_2,ulna,-,-,left,transverse,ventral
+Halichoerus grypus_2,radius,-,-,right,transverse,dorsal
+Halichoerus grypus_2,radius,-,-,right,transverse,ventral
+Halichoerus grypus_2,humerus,-,-,-,transverse,ventral
+Halichoerus grypus_2,humerus,-,-,-,transverse,dorsal
+Halichoerus grypus_2,humerus,-,-,-,coronal,anterior
+Halichoerus grypus_3,scapula,-,subadult,right,transverse,dorsal
+Halichoerus grypus_3,scapula,-,subadult,right,transverse,ventral
+Halichoerus grypus_3,scapula,male,adult,right,transverse,dorsal
+Halichoerus grypus_3,scapula,male,adult,right,transverse,ventral
+Halichoerus grypus_3,scapula,-,-,right,transverse,dorsal
+Halichoerus grypus_3,scapula,-,-,right,transverse,ventral
+Halichoerus grypus_3,scapula,-,adult,left,transverse,dorsal
+Halichoerus grypus_3,scapula,-,adult,left,transverse,ventral
+Halichoerus grypus_3,humerus,female,adult,left,transverse,ventral
+Halichoerus grypus_3,humerus,female,adult,left,transverse,dorsal
+Halichoerus grypus_3,humerus,female,adult,left,coronal,anterior
+Halichoerus grypus_3,humerus,female,-,right,transverse,ventral
+Halichoerus grypus_3,humerus,female,-,right,transverse,dorsal
+Halichoerus grypus_3,humerus,female,-,right,coronal,anterior
+Halichoerus grypus_4-1,scapula,male,-,right,transverse,dorsal
+Halichoerus grypus_4-1,scapula,male,-,right,transverse,ventral
+Halichoerus grypus_4-2,scapula,-,-,right,transverse,dorsal
+Halichoerus grypus_4-2,scapula,-,-,right,transverse,ventral
+Halichoerus grypus_4-3,humerus,-,-,right,transverse,ventral
+Halichoerus grypus_4-3,humerus,-,-,right,transverse,dorsal
+Halichoerus grypus_4-3,humerus,-,-,right,coronal,anterior
+Halichoerus grypus_4-4,ulna (incomplete),male,immature,left,transverse,dorsal
+Halichoerus grypus_4-4,ulna (incomplete),male,immature,left,transverse,ventral
+Halichoerus grypus_4-4,ulna (incomplete),male,immature,right,transverse,dorsal
+Halichoerus grypus_4-4,ulna (incomplete),male,immature,right,transverse,ventral
+Halichoerus grypus_4-4,humerus,male,immature,right,transverse,ventral
+Halichoerus grypus_4-4,humerus,male,immature,right,transverse,dorsal
+Halichoerus grypus_4-4,humerus,male,immature,right,coronal,anterior
+Halichoerus grypus_4-4,humerus,male,immature,left,transverse,ventral
+Halichoerus grypus_4-4,humerus,male,immature,left,transverse,dorsal
+Halichoerus grypus_4-4,humerus,male,immature,left,coronal,anterior
+Halichoerus grypus_5,scapula,female,-,left,transverse,dorsal
+Halichoerus grypus_5,scapula,female,-,left,transverse,ventral
+Halichoerus grypus_5,scapula,female,-,right,transverse,dorsal
+Halichoerus grypus_5,scapula,female,-,right,transverse,ventral
+Halichoerus grypus_5,ulna,female,-,right,transverse,dorsal
+Halichoerus grypus_5,ulna,female,-,right,transverse,ventral
+Halichoerus grypus_5,ulna,female,-,left,transverse,dorsal
+Halichoerus grypus_5,ulna,female,-,left,transverse,ventral
+Halichoerus grypus_5,humerus,female,-,right,transverse,ventral
+Halichoerus grypus_5,humerus,female,-,right,transverse,dorsal
+Halichoerus grypus_5,humerus,female,-,right,coronal,anterior
+Odobenus sp.,ulna,-,-,right,transverse,dorsal
+Odobenus sp.,ulna,-,-,right,transverse,ventral
+Odobenus sp.,radius,-,-,right,transverse,ventral
+Odobenus sp.,radius,-,-,right,transverse,dorsal
+Odobenus sp.,radius,-,-,right,transverse,dorsal
+Odobenus sp.,radius,-,-,right,coronal,posterior
+Phoca vitulina_1,forelimb (complete),male,-,left,transverse,dorsal
+Phoca vitulina_1,ulna,male,-,left,transverse,dorsal
+Phoca vitulina_1,ulna,male,-,left,transverse,ventral
+Phoca vitulina_1,radius,male,-,left,transverse,dorsal
+Phoca vitulina_1,radius,male,-,left,transverse,ventral
+Phoca vitulina_1,humerus,male,-,left,transverse,-
+Phoca vitulina_1,humerus,male,-,left,transverse,ventral
+Phoca vitulina_1,humerus,male,-,left,coronal,anterior
+Phoca vitulina_1,humerus,male,-,left,coronal,posterior
+Phoca vitulina_1,scapula,male,-,left,transverse,dorsal
+Phoca vitulina_1,scapula,male,-,left,transverse,ventral
+Phoca vitulina_1,forelimb (incomplete),male,-,right,transverse,dorsal
+Phoca vitulina_1,scapula,male,-,right,transverse,dorsal
+Phoca vitulina_1,scapula,male,-,right,transverse,ventral
+Phoca vitulina_1,ulna,male,-,right,transverse,dorsal
+Phoca vitulina_1,ulna,male,-,right,transverse,ventral
+Phoca vitulina_1,humerus,male,-,right,transverse,dorsal
+Phoca vitulina_1,humerus,male,-,right,transverse,ventral
+Phoca vitulina_1,humerus,male,-,right,coronal,anterior
+Phoca vitulina_2,radius,-,juvenile,right,transverse,dorsal
+Phoca vitulina_2,radius,-,juvenile,right,transverse,ventral
+Phoca vitulina_3-1,scapula,-,-,right,transverse,dorsal
+Phoca vitulina_3-1,scapula,-,-,right,transverse,ventral
+Phoca vitulina_3-2,radius,-,-,left,transverse,dorsal
+Phoca vitulina_3-2,radius,-,-,left,transverse,ventral
+Phoca vitulina_3-3,ulna,-,-,right,transverse,dorsal
+Phoca vitulina_3-3,ulna,-,-,right,transverse,ventral
+Zalophus californianus,brain endocast,-,-,-,transverse,dorsal
+Zalophus californianus,brain endocast,-,-,-,transverse,ventral
+Zalophus californianus,skull,-,-,-,transverse,dorsal
+Zalophus californianus,skull,-,-,-,transverse,ventral
+Zalophus californianus,mandible (2),-,-,left & right,midsagittal,exterior
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
+NULL,NULL,NULL,NULL,NULL,NULL,NULL
