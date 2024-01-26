@@ -70,7 +70,7 @@ The folder that is available in Github should include this file as well as a fol
   
 <br> 
 
-**2. Open *Query Tool*, run the following ode**.  
+**2. Open *Query Tool*, run the following code**.  
 
    ```sql
    CREATE TABLE IF NOT EXISTS public.data_tags
