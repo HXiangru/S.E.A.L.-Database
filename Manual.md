@@ -1,4 +1,4 @@
-# ??? Manual
+# Search Edit Archive Library (S.E.A.L.) Manual
 
 <br> 
 
