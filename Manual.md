@@ -47,7 +47,7 @@ https://www.pgadmin.org/download/
 Login the default server with default port, default user with the password you have set. The default server information:  
 * Hostname: localhost
 * Port: 5432
-* Password: ‘password’
+* Password: password
 * User: postgres
 
 
