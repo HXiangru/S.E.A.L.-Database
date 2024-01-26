@@ -613,7 +613,7 @@ query <- "SELECT *
 table <- dbGetQuery(con, query)
 ```
 
-Set "table1" and "table2" as t1 and t2 in query
+Set "table1" and "table2" as t1 and t2 in query !!!!!!!!! -> uncertanty table
 ```r
 query <- "SELECT *
           FROM table1 AS t1
