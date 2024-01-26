@@ -385,8 +385,8 @@ could not connect postgres@localhost:5432 on dbname "S.E.A.L.": SCRAM authentica
    ```psql
    ALTER USER here-is-your-username WITH PASSWORD 'here-is-your-new-password';
    ```
-6. Reload the server of PostgreSQL
-7.  Go to Rstudio, reconnect the server and it should work now 
+6. Reload the server of PostgreSQL, re log in to pgAdmin
+7. Restart Rstudio, reconnect the server and it should work now 
 
 <br> 
 
