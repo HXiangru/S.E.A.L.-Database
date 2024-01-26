@@ -32,10 +32,6 @@ https://www.postgresql.org/download/
 * Set default port *5432*
 * Set password for default user *postgre*
 
-
-
-
-
 <br> 
 
 ### pgAdmin
@@ -45,12 +41,10 @@ https://www.postgresql.org/download/
 https://www.pgadmin.org/download/
 
 Login the default server with default port, default user with the password you have set. The default server information:  
-* Hostname: localhost
-* Port: 5432
-* Password: password
-* User: postgres
-
-
+* Hostname: *localhost*
+* Port: *5432*
+* Password: *password*
+* User: *postgres*
 
 <br> 
 
@@ -352,7 +346,7 @@ Establish the connection, by providing name of database, port of server, user na
 ```r
 con <- dbConnect(
   PostgreSQL(),
-  dbname = "pro306",         #name of imported database
+  dbname = "S.E.A.L.",         #name of imported database
   port = 5432,               #port of imported server
   user = "postgres",         #username
   password = "password")     #password
@@ -369,22 +363,29 @@ if (!is.null(result)) {
 }
 ```
 
+Disconnect
+```r
+dbDisconnect(con)
+```
+
+<br> 
+
 The connection process should be the same for both Windows system and macOS system, however, but Windows users may encounter errors with the version of *libpq* in the *RPostgreSQL* package. However, it might occur when the *libpq* version is over 10. In this case, we need to alter the authetication from from *scram-sha-256* to another one, here we chose *md5*.
 
 ```r
 RPosgreSQL error: 
-could not connect postgres@localhost:5432 on dbname "pro306": SCRAM authentication requires libpq version 10 or above
+could not connect postgres@localhost:5432 on dbname "S.E.A.L.": SCRAM authentication requires libpq version 10 or above
 ```
 
 1. Check again if your libpq.dll files are over version 10, and have newest softwares (e.g. R, RPostgreSQL)
 2. Go to the install location of PostgreSQL, open folder *data*, you’ll see two conf files called *pg_hba* and *postgresql*.
 3. Set *password_encryption = md5* in postgresql.conf
 4. Set *METHODS* be *md5* in pg_hba.conf
-5. Reload PostgreSQL
-6.  Open the prompt (SQL shell, or called psql), log in, change the password using the following command 
+5.  Open the prompt (SQL shell, or called psql), log in, change the password using the following command 
    ```psql
    ALTER USER here-is-your-username WITH PASSWORD 'here-is-your-new-password';
    ```
+6. Reload the server of PostgreSQL
 7.  Go to Rstudio, reconnect the server and it should work now 
 
 <br> 
@@ -407,86 +408,80 @@ tables <- dbListTables(con)
 print(tables)
 ```
 
-Get all information from the table "msp"
+Get all information from the table "data_tags"
 ```r
-initial.query <- "SELECT * FROM msp"
+initial.query <- "SELECT * FROM data_tags"
 initial.table <- dbGetQuery(con, initial.query)
 ```
 
-Get columns "specimen" and "bone" from the table "msp"
+Get columns "specimen" and "bone" from the table "data_tags"
 ```r
-query <- "SELECT specimen, bone FROM msp"
+query <- "SELECT specimen, bone FROM data_tags"
 table <- dbGetQuery(con, query)
 ```
 
-Get all rows having "ulna" in column "bone" from the table "msp"
+Get all rows having "ulna" in column "bone" from the table "data_tags"
 ```r
-query <- "SELECT * FROM public.msp WHERE bone = 'ulna'"
+query <- "SELECT * FROM public.data_tags WHERE bone = 'ulna'"
 table <- dbGetQuery(con, query)
 ```
 
-Get columns "specimen" and "bone" from the table "msp", but only with rows having "A. pusilus_1" in column "specimen" and "rib" in column "bone"
+Get columns "specimen" and "bone" from the table "data_tags", but only with rows having "A. pusilus_1" in column "specimen" and "rib" in column "bone"
 ```r
-query <- "SELECT specimen, bone FROM public.msp
-           WHERE specimen = 'A. pusilus_1'
+query <- "SELECT specimen, bone FROM public.data_tags
+           WHERE specimen = 'Arctocephalus pusillus_1'
            AND bone = 'rib';"
 table <- dbGetQuery(con, query)
 ```
-Get all rows containing "ume" in column "bone" from the table "msp"
+Get all rows containing "ume" in column "bone" from the table "data_tags"
 ```r
-query <- "SELECT *
-          FROM msp
+query <- "SELECT * FROM data_tags
           WHERE bone like '%ume%';"
 table <- dbGetQuery(con, query)
 ```
 
 Get all rows containing "hum" in column "bone", with "hum" as the start
 ```r
-query <- "SELECT *
-          FROM msp
+query <- "SELECT * FROM data_tags
           WHERE bone like 'hum%';"
 table <- dbGetQuery(con, query)
 ```
 
 Get all rows containing "rus" in column "bone", with "rus" as the end
 ```r
-query <- "SELECT *
-          FROM msp
+query <- "SELECT * FROM data_tags
           WHERE bone like '%rus';"
 table <- dbGetQuery(con, query)
 ```
 
-Get all rows not containing "ume" in column "bone" from the table "msp"
+Get all rows not containing "ume" in column "bone" from the table "data_tags"
 ```r
-query <- "SELECT *
-          FROM msp
+query <- "SELECT * FROM data_tags
           WHERE bone NOT like '%ume%';"
 table <- dbGetQuery(con, query)
 ```
 
-Get rows containing “1800"，“1801” and "1802" in column "picture number" from the table "msp"
+Get rows containing “1"，“2” and "3" in column "logic_tag" from the table "data_tags"
 ```r
-query <- "SELECT *
-          FROM msp
-          WHERE \"picture number\" IN (1800, 1801, 1802);"
+query <- "SELECT * FROM data_tags
+          WHERE logic_tag IN (1, 2, 3);"
 table <- dbGetQuery(con, query)
 ```
 
-Get rows not containing “rib"，“humerus” and "scapula" in column "bone" from the table "msp"
+Get rows not containing “rib"，“humerus” and "scapula" in column "bone" from the table "data_tags"
 ```r
-query <- "SELECT *
-          FROM msp
+query <- "SELECT * FROM data_tags
           WHERE bone NOT IN ('rib', 'humerus', 'scapula');"
 table <- dbGetQuery(con, query)
 ```
 
-Find a certain cell from table "msp" by giving a certain row and column
+Find a certain cell from table "data_tags" by giving a certain row and column
 ```r
-query <- "SELECT bone
-          FROM msp
-          WHERE \"picture number\" = '1900';"
+query <- "SELECT bone FROM data_tags
+          WHERE logic_tag = '19';"
 table <- dbGetQuery(con, query)
 ```
+
 <br> 
 <br>
 
@@ -494,25 +489,25 @@ table <- dbGetQuery(con, query)
    
 <br>
 
-Get ordered table "msp" based on "picture number" in ascending order
+Get ordered table "data_tags" based on "logic_tag" in ascending order
 ```r
-query <- "SELECT * FROM msp ORDER BY \"picture number\";"
+query <- "SELECT * FROM data_tags ORDER BY logic_tag;"
 ```
 Or
 ```r
-query <- "SELECT * FROM msp ORDER BY specimen ASC;"
+query <- "SELECT * FROM data_tags ORDER BY specimen ASC;"
 table <- dbGetQuery(con, query5)
 ```
 
-Get ordered table "msp" based on "picture number" in descending order
+Get ordered table "data_tags" based on "logic_tag" in descending order
 ```r
-query <- "SELECT * FROM msp ORDER BY \"picture number\" DESC;"
+query <- "SELECT * FROM data_tags ORDER BY logic_tag DESC;"
 table <- dbGetQuery(con, query)
 ```
 
-Get ordered table "msp" based on "specimen" first, then picture number"
+Get ordered table "data_tags" based on "bone" first, then "logic_tag"
 ```r
-query <- "SELECT * FROM msp ORDER BY specimen,\"picture number\";"
+query <- "SELECT * FROM data_tags ORDER BY bone,logic_tag;"
 table <- dbGetQuery(con, query)
 ```
 
@@ -536,20 +531,22 @@ query <- "SELECT specimen, count(1)
 table <- dbGetQuery(con, query)
 ```
 
-Check all "specimen"s by grouping, count each "specimen", and find the max/min number in their "picture number"
+Check all "specimen"s from the table "data_tags", count each "specimen", and find the max/min number in their "logic_tag"
 ```r
-query <- "SELECT specimen, count(1),max(\"picture number\"),min(\"picture number\")
-          FROM msp GROUP BY specimen;"
+query <- "SELECT specimen, count(1),max(logic_tag),min(logic_tag)
+          FROM data_tags GROUP BY specimen;"
 table <- dbGetQuery(con, query)
 ```
 
-Limit the max "picture number" be smaller than 1800
+Limit the max "logic_tag" be smaller than 100
 ```r
-query <- "SELECT specimen, count(1),max(\"picture number\"),min(\"picture number\")
-          FROM msp GROUP BY specimen
-          HAVING max(\"picture number\") < 1800;"
+query <- "SELECT specimen, count(1), max(logic_tag), min(logic_tag)
+          FROM data_tags
+          GROUP BY specimen
+          HAVING max(logic_tag) < 100;"
 table <- dbGetQuery(con, query)
 ```
+
 <br>
 <br>
 
@@ -559,41 +556,41 @@ table <- dbGetQuery(con, query)
 
 AND: both conditions are true
 ```r
-query <- "SELECT * FROM msp
-          WHERE specimen = 'A. pusilus_1'
+query <- "SELECT * FROM data_tags
+          WHERE specimen = 'Arctocephalus pusillus_1'
           AND bone = 'rib';"
 table <- dbGetQuery(con, query)
 ```
 
 OR: any condition should be true
 ```r
-query <- "SELECT * FROM msp
-          WHERE specimen = 'A. pusilus_1'
+query <- "SELECT * FROM data_tags
+          WHERE specimen = 'Arctocephalus pusillus_1'
           OR bone = 'humerus';"
 table <- dbGetQuery(con, query)
 ```
 
-AND & OR: in this case, either both specimen = 'A. pusilus_1' is true, or both bone = 'humerus' and sex = 'female' are true
+AND & OR: in this case, either both specimen = 'Arctocephalus pusillus_1' is true, or both bone = 'humerus' and sex = 'female' are true
 ```r
-query <- "SELECT * FROM msp
-          WHERE specimen = 'A. pusilus_1'
+query <- "SELECT * FROM data_tags
+          WHERE specimen = 'Arctocephalus pusillus_1'
           OR bone = 'humerus'
           AND sex = 'female';"
 table <- dbGetQuery(con, query)
 ```
 
-IS NOT NULL: select rows that is not null in column "editing user" from the table "msp"
+IS NOT NULL: select rows that is not null in column "logic_tag" from the table "data_tags"
 ```r
-query <- 'SELECT * FROM msp
-          WHERE "editing user" IS NOT NULL;'
+query <- 'SELECT * FROM data_tags
+          WHERE "logic_tag" IS NOT NULL;'
 table <- dbGetQuery(con, query)
 ```
 
-BETWEEN: select rows that is between 1 and 1800 in column "picture number" from the table "msp"
+BETWEEN: select rows that is between 1 and 10 in column "logic_tag" from the table "data_tags"
 ```r
-query <- "SELECT * FROM msp
-          WHERE \"picture number\" BETWEEN 1 AND 1800
-          ORDER BY \"picture number\";"
+query <- "SELECT * FROM data_tags
+          WHERE logic_tag BETWEEN 1 AND 10
+          ORDER BY logic_tag;"
 table <- dbGetQuery(con, query)
 ```
 
@@ -604,36 +601,39 @@ table <- dbGetQuery(con, query)
 
 <br>  
 
-Join two tables "table1" and "table2" together, with the corresponding columns table1."ID" and table2."ID"
+Join two tables "data_tags" and "data_uncertainty" together, with the corresponding columns table1."bone" and table2."bone"
 ```r
 query <- "SELECT *
-          FROM table1
-          INNER JOIN table2
-          ON table1.\"ID\" = table2.\"ID\";"
+          FROM data_tags 
+          INNER JOIN data_uncertainty 
+          ON data_tags.\"bone\" = data_uncertainty.\"bone\";"
 table <- dbGetQuery(con, query)
 ```
 
-Set "table1" and "table2" as t1 and t2 in query !!!!!!!!! -> uncertanty table
+Set "data_tags" and "data_uncertainty" as t1 and t2 in query
 ```r
 query <- "SELECT *
-          FROM table1 AS t1
-          INNER JOIN table2 AS t2
-          ON t1.\"ID\" = t2.\"ID\";"
+          FROM data_tags AS t1
+          INNER JOIN data_uncertainty AS t2
+          ON t1.\"bone\" = t2.\"bone\";"
 table <- dbGetQuery(con, query)
+```
+
+
+<br>
+<br>
+
+**6. Users**
+
+Create a user
+```r
+???
 ```
 
 Query the user documentation
 ```r
-???
-```
-
-<br>
-<br>
-
-**6. Create a user**
-
-```r
-???
+user.query <- "SELECT * FROM user_documentation"
+user.table <- dbGetQuery(con, user.query)
 ```
 
 <br>
@@ -676,25 +676,25 @@ dbDisconnect(con)
 
 <br>
 
-Set all rows in "sex" column into "male" from table "msp"
+Set all rows in "sex" column into "male" from table "data_tags"
 ```r
-query <- "UPDATE msp SET sex = 'male';"
+query <- "UPDATE data_tags SET sex = 'male';"
 dbExecute(con, query)
 ```
 
-Set "sex" column of the "C. cristata" row in "specimen" column to "male"
+Set "sex" column of the "Cystophora cristata" row in "specimen" column to "male"
 ```r
-query <- "UPDATE msp
+query <- "UPDATE data_tags
           SET sex = 'female'
-          WHERE specimen = 'C. cristata';"
+          WHERE specimen = 'Cystophora cristata';"
 dbExecute(con, query)
 ```
 
-Set a certain cell from table "msp" by giving a certain row and column
+Set a certain cell from table "data_tags" by giving a certain row and column
 ```r
-query <- "UPDATE msp
+query <- "UPDATE data_tags
           SET sex = 'female'
-          WHERE \"picture number\" = '1';"
+          WHERE logic_tag = '1';"
 dbExecute(con, query)
 ```
 
@@ -707,7 +707,7 @@ dbExecute(con, query)
 
 Insert a new row with "specimen" as "specimen"
 ```r
-query <- "INSERT INTO public.msp (\"specimen\") VALUES ('specimen');"
+query <- "INSERT INTO public.data_tags (\"specimen\") VALUES ('specimen');"
 dbExecute(con, query)
 ```
 
@@ -718,15 +718,15 @@ dbExecute(con, query)
 
 <br>
 
-Delete the table "msp"
+Delete the table "data_tags"
 ```r
-query <- "DELETE FROM msp"
+query <- "DELETE FROM data_tags"
 dbExecute(con, query)
 ```
 
-Delete the "specimen" row in "specimen" column from table "msp"
+Delete the "specimen" row in "specimen" column from table "data_tags"
 ```r
-query <- "DELETE FROM msp
+query <- "DELETE FROM data_tags
           WHERE specimen = 'specimen';"
 dbExecute(con, query)
 ```
@@ -738,26 +738,26 @@ dbExecute(con, query)
 
 <br>
 
-Get ordered table "msp" based on "picture number" in ascending order
+Get ordered table "data_tags" based on "logic_tag" in ascending order
 ```r
-query <- "SELECT * FROM msp ORDER BY \"picture number\";"
+query <- "SELECT * FROM data_tags ORDER BY logic_tag;"
 ```
 Or
 ```r
-query <- "SELECT * FROM msp ORDER BY specimen ASC;"
-dbExecute(con, query)
+query <- "SELECT * FROM data_tags ORDER BY specimen ASC;"
+table <- dbGetQuery(con, query5)
 ```
 
-Get ordered table "msp" based on "picture number" in descending order
+Get ordered table "data_tags" based on "logic_tag" in descending order
 ```r
-query <- "SELECT * FROM msp ORDER BY \"picture number\" DESC;"
-dbExecute(con, query)
+query <- "SELECT * FROM data_tags ORDER BY logic_tag DESC;"
+table <- dbGetQuery(con, query)
 ```
 
-Get ordered table "msp" based on "specimen" first, then picture number"
+Get ordered table "data_tags" based on "bone" first, then "logic_tag"
 ```r
-query <- "SELECT * FROM msp ORDER BY specimen,\"picture number\";"
-dbExecute(con, query)
+query <- "SELECT * FROM data_tags ORDER BY bone,logic_tag;"
+table <- dbGetQuery(con, query)
 ```
 
 <br>
