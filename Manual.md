@@ -381,7 +381,7 @@ could not connect postgres@localhost:5432 on dbname "pro306": SCRAM authenticati
 3. Set *password_encryption = md5* in postgresql.conf
 4. Set *METHODS* be *md5* in pg_hba.conf
 5. Reload PostgreSQL
-6.  Open the prompt (SQL shell, or called psql), log in, change the password using the following coommand 
+6.  Open the prompt (SQL shell, or called psql), log in, change the password using the following command 
    ```psql
    ALTER USER here-is-your-username WITH PASSWORD 'here-is-your-new-password';
    ```
