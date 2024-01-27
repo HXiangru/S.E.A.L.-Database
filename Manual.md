@@ -485,72 +485,7 @@ table <- dbGetQuery(con, query)
 <br> 
 <br>
 
-**2. Order data (changes to tables in R only)**
-   
-<br>
-
-Get ordered table "data_tags" based on "logic_tag" in ascending order
-```r
-query <- "SELECT * FROM data_tags ORDER BY logic_tag;"
-```
-Or
-```r
-query <- "SELECT * FROM data_tags ORDER BY specimen ASC;"
-table <- dbGetQuery(con, query5)
-```
-
-Get ordered table "data_tags" based on "logic_tag" in descending order
-```r
-query <- "SELECT * FROM data_tags ORDER BY logic_tag DESC;"
-table <- dbGetQuery(con, query)
-```
-
-Get ordered table "data_tags" based on "bone" first, then "logic_tag"
-```r
-query <- "SELECT * FROM data_tags ORDER BY bone,logic_tag;"
-table <- dbGetQuery(con, query)
-```
-
-<br>
-<br>
-
-**3. Group data**
-
-<br>
-
-Check all "specimen"s by grouping
-```r
-query <- "SELECT specimen FROM msp GROUP BY specimen;"
-table <- dbGetQuery(con, query)
-```
-
-Check all "specimen"s by grouping, and count each "specimen"
-```r
-query <- "SELECT specimen, count(1)
-          FROM msp GROUP BY specimen;"
-table <- dbGetQuery(con, query)
-```
-
-Check all "specimen"s from the table "data_tags", count each "specimen", and find the max/min number in their "logic_tag"
-```r
-query <- "SELECT specimen, count(1),max(logic_tag),min(logic_tag)
-          FROM data_tags GROUP BY specimen;"
-table <- dbGetQuery(con, query)
-```
-
-Limit the max "logic_tag" be smaller than 100
-```r
-query <- "SELECT specimen, count(1), max(logic_tag), min(logic_tag)
-          FROM data_tags
-          GROUP BY specimen
-          HAVING max(logic_tag) < 100;"
-table <- dbGetQuery(con, query)
-```
-
-<br>
-<br>
-
-**4. Multiple conditions** 
+**2. Multiple conditions** 
 
 <br>  
 
@@ -595,6 +530,71 @@ table <- dbGetQuery(con, query)
 ```
 
 <br>  
+<br>
+
+**3. Order data (changes to tables in R only)**
+   
+<br>
+
+Get ordered table "data_tags" based on "logic_tag" in ascending order
+```r
+query <- "SELECT * FROM data_tags ORDER BY logic_tag;"
+```
+Or
+```r
+query <- "SELECT * FROM data_tags ORDER BY specimen ASC;"
+table <- dbGetQuery(con, query5)
+```
+
+Get ordered table "data_tags" based on "logic_tag" in descending order
+```r
+query <- "SELECT * FROM data_tags ORDER BY logic_tag DESC;"
+table <- dbGetQuery(con, query)
+```
+
+Get ordered table "data_tags" based on "bone" first, then "logic_tag"
+```r
+query <- "SELECT * FROM data_tags ORDER BY bone,logic_tag;"
+table <- dbGetQuery(con, query)
+```
+
+<br>
+<br>
+
+**4. Group data**
+
+<br>
+
+Check all "specimen"s by grouping
+```r
+query <- "SELECT specimen FROM msp GROUP BY specimen;"
+table <- dbGetQuery(con, query)
+```
+
+Check all "specimen"s by grouping, and count each "specimen"
+```r
+query <- "SELECT specimen, count(1)
+          FROM msp GROUP BY specimen;"
+table <- dbGetQuery(con, query)
+```
+
+Check all "specimen"s from the table "data_tags", count each "specimen", and find the max/min number in their "logic_tag"
+```r
+query <- "SELECT specimen, count(1),max(logic_tag),min(logic_tag)
+          FROM data_tags GROUP BY specimen;"
+table <- dbGetQuery(con, query)
+```
+
+Limit the max "logic_tag" be smaller than 100
+```r
+query <- "SELECT specimen, count(1), max(logic_tag), min(logic_tag)
+          FROM data_tags
+          GROUP BY specimen
+          HAVING max(logic_tag) < 100;"
+table <- dbGetQuery(con, query)
+```
+
+<br>
 <br>
 
 **5. Join relational tables**
