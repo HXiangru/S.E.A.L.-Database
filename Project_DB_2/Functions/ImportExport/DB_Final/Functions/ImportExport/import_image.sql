@@ -1,0 +1,46 @@
+-- FUNCTION: public.import_image(text, text[], boolean[])
+
+-- DROP FUNCTION IF EXISTS public.import_image(text, text[], boolean[]);
+
+CREATE OR REPLACE FUNCTION public.import_image(
+    p_image_path text,
+    p_data_tags text[],
+    p_data_uncertainties boolean[]
+)
+RETURNS void
+LANGUAGE 'plpgsql'
+COST 100
+VOLATILE PARALLEL UNSAFE
+AS $BODY$
+DECLARE
+    l_unique_name text;
+    l_picture_number INTEGER;
+    l_file_path text;
+    l_image_data bytea;
+BEGIN
+    -- Generate a unique random number
+    l_picture_number := generate_unique_random_number();
+
+    -- Generate unique text scrape
+    l_unique_name = generate_unique_identifier(p_data_tags) || l_picture_number::text;
+
+    -- Define the file path in the storage directory
+    l_file_path := 'C:\Program Files\PostgreSQL\16\Storage_Directory\' || l_unique_name;
+
+    -- Use proper syntax for COPY command to read image data into a bytea variable
+    EXECUTE FORMAT('COPY (SELECT pg_read_binary_file(%L)) TO %L', p_image_path, l_file_path) INTO l_image_data;
+
+    -- Call insert_data_tags with the array of tags and the generated picture_number
+    CALL insert_data_tags(p_data_tags, l_picture_number, l_unique_name);
+
+    -- Call insert_uncertainty with the array of boolean values corresponding to the data_tags
+    CALL insert_data_uncertainty(p_data_uncertainties, l_picture_number);
+
+    -- Insert the file path and image data into the data_reference table
+    INSERT INTO data_reference (picture_number, link_path, stored_images)
+    VALUES (l_picture_number, l_file_path, l_image_data);
+END;
+$BODY$;
+
+ALTER FUNCTION public.import_image(text, text[], boolean[])
+    OWNER TO postgres;
