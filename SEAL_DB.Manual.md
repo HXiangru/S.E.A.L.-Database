@@ -444,7 +444,7 @@ ALTER FUNCTION public.perform_user_action_with_documentation(character varying, 
 
 **3. Create tables**.  
 
-1. The third step is to start building all the tables required for managing the database by *Query Tool*. Run the following code (*all_tables.sql*) and The query consists of five incomplete tables
+1. The third step is to start building all the tables required for managing the database by *Query Tool*. Run the following code (*all_tables.sql*).The query consists of five incomplete tables
    1. Data_tags  	
    2. Data_reference		
    3. Data_uncertainty
