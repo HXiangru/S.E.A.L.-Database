@@ -1,3 +1,8 @@
+```r
+query <- "SELECT bone,count(1) FROM data_tags GROUP BY bone ORDER BY bone;"
+table <- dbGetQuery(con, query)
+```
+
 # Manual of Search Edit Archive Library (S.E.A.L.) 
 
 <br> 
