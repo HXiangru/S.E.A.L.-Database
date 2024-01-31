@@ -1,10 +1,13 @@
 ```r
-dbBegin(con)
-query <- "ALTER TABLE msp ADD COLUMN seal"
-query <- "ALTER TABLE msp DROP COLUMN specimen"
-dbExecute(con, query)
-dbRollback(con)
-dbCommit(con)
+install.packages("RPostgreSQL")
+library(RPostgreSQL)
+
+con <- dbConnect(
+  PostgreSQL(),
+  dbname = "S.E.A.L.",       #name of imported database
+  port = 5432,               #port of imported server
+  user = "postgres",         #username
+  password = "password")     #password
 ```
 
 
