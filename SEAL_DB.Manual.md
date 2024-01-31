@@ -1,8 +1,6 @@
 ```r
 dbBegin(con)
 query <- "ALTER TABLE msp ADD COLUMN seal"
-dbExecute(con, query)
-dbRollback(con)
 query <- "ALTER TABLE msp DROP COLUMN specimen"
 dbExecute(con, query)
 dbRollback(con)
