@@ -575,7 +575,7 @@ library(RPostgreSQL)
 ```r
 con <- dbConnect(
   PostgreSQL(),
-  dbname = "S.E.A.L.",         #name of imported database
+  dbname = "S.E.A.L.",       #name of imported database
   port = 5432,               #port of imported server
   user = "postgres",         #username
   password = "password")     #password
