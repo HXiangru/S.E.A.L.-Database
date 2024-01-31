@@ -1,7 +1,15 @@
-```r
-query <- "SELECT bone,count(1) FROM data_tags GROUP BY bone ORDER BY bone;"
-table <- dbGetQuery(con, query)
-```
+dbBegin(con)
+query <- "ALTER TABLE msp ADD COLUMN seal"
+dbExecute(con, query)
+dbRollback(con)
+query <- "ALTER TABLE msp DROP COLUMN specimen"
+dbExecute(con, query)
+dbRollback(con)
+dbCommit(con)
+
+
+
+
 
 # Manual of Search Edit Archive Library (S.E.A.L.) 
 
