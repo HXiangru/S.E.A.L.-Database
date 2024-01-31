@@ -1,15 +1,3 @@
-```r
-dbBegin(con)
-query1 <- "ALTER TABLE msp ADD COLUMN seal"
-query2 <- "ALTER TABLE msp DROP COLUMN specimen"
-dbExecute(con, query1)
-dbExecute(con, query2)
-dbRollback(con)
-dbCommit(con)
-```
-
-
-
 
 # Manual of Search Edit Archive Library (S.E.A.L.) 
 
